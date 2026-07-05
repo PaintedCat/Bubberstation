@@ -116,6 +116,8 @@ GLOBAL_LIST_INIT(holiday_mail, list())
 /datum/holiday/groundhog/getStationPrefix()
 	return pick("Deja Vu") //I have been to this place before
 
+// SPACE CUB REMOVE:for now, we dont use it.
+/*
 /datum/holiday/nz
 	name = "Waitangi Day"
 	timezones = list(TIMEZONE_NZDT, TIMEZONE_CHADT)
@@ -134,6 +136,7 @@ GLOBAL_LIST_INIT(holiday_mail, list())
 /datum/holiday/nz/greet()
 	var/nz_age = text2num(time2text(world.timeofday, "YYYY", TIMEZONE_NZST)) - 1840
 	return "On this day [nz_age] years ago, New Zealand's Treaty of Waitangi, the founding document of the nation, was signed!"
+*/
 
 /datum/holiday/valentines
 	name = VALENTINES
@@ -318,6 +321,8 @@ GLOBAL_LIST_INIT(holiday_mail, list())
 	begin_day = 22
 	begin_month = APRIL
 
+// SPACE CUB REMOVE:for now, we dont use it.
+/*
 /datum/holiday/anz
 	name = "ANZAC Day"
 	timezones = list(TIMEZONE_TKT, TIMEZONE_TOT, TIMEZONE_NZST, TIMEZONE_NFT, TIMEZONE_LHST, TIMEZONE_AEST, TIMEZONE_ACST, TIMEZONE_ACWST, TIMEZONE_AWST, TIMEZONE_CXT, TIMEZONE_CCT, TIMEZONE_CKT, TIMEZONE_NUT)
@@ -327,6 +332,7 @@ GLOBAL_LIST_INIT(holiday_mail, list())
 
 /datum/holiday/anz/getStationPrefix()
 	return pick("Australian","New Zealand","Poppy", "Southern Cross")
+*/
 
 /datum/holiday/chernobyl
 	name = CHERNOBYL_ANNIVERSARY
@@ -439,6 +445,8 @@ GLOBAL_LIST_INIT(holiday_mail, list())
 	begin_month = JUNE
 	holiday_hat = /obj/item/clothing/head/costume/garland
 
+// SPACE CUB REMOVE:for now, we dont allowed to use it.
+/*
 /datum/holiday/pride_week
 	name = PRIDE_WEEK
 	begin_month = JUNE
@@ -466,6 +474,7 @@ GLOBAL_LIST_INIT(holiday_mail, list())
 	if(prob(30))
 		return
 	holiday_colors = pick(LESBIAN_FLAG_COLORS, GAY_MAN_FLAG_COLORS, TRANS_FLAG_COLORS, BI_FLAG_COLORS, ACE_FLAG_COLORS, PAN_FLAG_COLORS)
+*/
 
 // JULY
 
@@ -495,6 +504,8 @@ GLOBAL_LIST_INIT(holiday_mail, list())
 /datum/holiday/ufo/getStationPrefix() //Is such a thing even possible?
 	return pick("Ayy","Truth","Tsoukalos","Mulder","Scully") //Yes it is!
 
+// SPACE CUB REMOVE:for now, we dont use it.
+/*
 /datum/holiday/usa
 	name = "US Independence Day"
 	timezones = list(TIMEZONE_EDT, TIMEZONE_CDT, TIMEZONE_MDT, TIMEZONE_MST, TIMEZONE_PDT, TIMEZONE_AKDT, TIMEZONE_HDT, TIMEZONE_HST)
@@ -513,6 +524,7 @@ GLOBAL_LIST_INIT(holiday_mail, list())
 
 /datum/holiday/usa/getStationPrefix()
 	return pick("Independent","American","Burger","Bald Eagle","Star-Spangled", "Fireworks")
+*/
 
 /datum/holiday/writer
 	name = "Writer's Day"
@@ -580,6 +592,8 @@ GLOBAL_LIST_INIT(holiday_mail, list())
 
 // AUGUST
 
+// SPACE CUB REMOVE:for now, we dont use it.
+/*
 /datum/holiday/ukraine
 	name = "Independence Day of Ukraine"
 	begin_month = AUGUST
@@ -588,6 +602,7 @@ GLOBAL_LIST_INIT(holiday_mail, list())
 
 /datum/holiday/ukraine/getStationPrefix()
 	return pick("Kyiv", "Ukraine")
+*/
 
 // SEPTEMBER
 
@@ -725,6 +740,8 @@ GLOBAL_LIST_INIT(holiday_mail, list())
 /datum/holiday/october_revolution/getStationPrefix()
 	return pick("Communist", "Soviet", "Bolshevik", "Socialist", "Red", "Workers'")
 
+// SPACE CUB REMOVE:for now, we dont use it.
+/*
 /datum/holiday/remembrance_day
 	name = "Remembrance Day"
 	begin_month = NOVEMBER
@@ -741,6 +758,7 @@ GLOBAL_LIST_INIT(holiday_mail, list())
 
 /datum/holiday/remembrance_day/getStationPrefix()
 	return pick("Peace", "Armistice", "Poppy")
+*/
 
 /datum/holiday/lifeday
 	name = "Life Day"
